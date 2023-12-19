@@ -6,7 +6,6 @@ L'Ia de LeftOvers permet la suggestion de recette à partir d'une liste d'ingré
 Vous pouvez essayer l'IA en local se plaçant dans le répertoire **leftoversIA_API**.
 
 ### Prérequis
-
 * python3
 * pip
 * librairies/modules python :
