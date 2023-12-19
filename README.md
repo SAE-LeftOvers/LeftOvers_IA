@@ -2,29 +2,6 @@
 
 L'Ia de LeftOvers permet la suggestion de recette à partir d'une liste d'ingrédient et de critère.
 
-## Version locale
-Vous pouvez essayer l'IA en local se plaçant dans le répertoire **leftoversIA_local**.
-
-### Prérequis
-* python3
-* pip
-* librairies python :
-  * numpy
-  * pandas
-  * os
-  * pickle
-  * ast (utilisé pour convertir une chaine de caractère en liste python)
-  * tqdm (ajoute une barre de progrès pour les boucles)
-
-### Utilisation
-#### load_pkls.py
-Ce fichier permet d'utiliser les fichiers *.csv* et *.pkl* pour créer des fichiers *.pkl* contenant des maps pour diverses informations.
-
-#### leftovers_ia.py
-Ce fichier contient les fonctions pour l'IA.  
-La fonction la plus importantes est la fonction **findRecipes** qui vous retournera une liste contenant des recettes classées par ordre d'importance suivant une note interne.  
-Un exemple d'utilisation est disponible dans le fichier **testIA.py**. Pour le tester, entrez simplement la commande ```python3 testIA.py```.
-
 ## Version avec API
 Vous pouvez essayer l'IA en local se plaçant dans le répertoire **leftoversIA_API**.
 
