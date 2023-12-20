@@ -39,11 +39,11 @@ class LeftoversIA:
         rating_mean = sum(recipe.rating_list)/(1 if nb_reviews == 0 else nb_reviews)
         mean_bonus = 0
         if (rating_mean>=4):
-            bonus = 3
+            mean_bonus = 3
         elif (rating_mean >= 3):
-            bonus = 2
+            mean_bonus = 2
         elif (rating_mean>=2):
-            bonus = 1
+            mean_bonus = 1
         
         review_quantity_bonus = 0
         if (nb_reviews >= 10):
